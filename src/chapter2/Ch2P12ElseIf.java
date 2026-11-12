@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Ch2P12ElseIf {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("請輸入整數");
+        int number = scanner.nextInt();
+
+        if (number == 1) {
+            System.out.println("輸入的是1");
+        } else if (number == 2) {
+            System.out.println("輸入的是2");
+        } else {
+            System.out.println("請輸入1或2");
+        }
+    }
+}
